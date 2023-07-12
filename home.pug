@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Joom
+        link(rel="stylesheet", href="https://unpkg.com/mvp.css")
+    body 
+        header 
+            h1 Joom
+        main
+            form#nick
+                input(type="text", placeholder="사용할 닉네임을 입력해주세요.", required)
+                button 설정  
+            ul 
+            form#message
+                input(type="text", placeholder="메시지를 입력하세요", required)
+                button 보내기     
+        script(src="/public/js/app.js") 
